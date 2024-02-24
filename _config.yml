@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Hantao Lou"
   avatar           : "bio-photo.jpg"
-  bio              : "I am Lou Hantao, currently a junior student at Yuanpei College, Peking University."
-  # location         : "Location"
+  bio              : "I am Lou Hantao, currently a undergraduate student at Yuanpei College, Peking University."
+  location         : "Peking"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=h1s9iX4AAAAJ&hl=en&oi=ao"
   email            : "lht_pku at stu.pku.edu.cn"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -94,7 +94,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : @HantaoLou
   foursquare       :
   github           : "htlou"
   google_plus      :
