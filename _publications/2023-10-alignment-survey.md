@@ -2,7 +2,7 @@
 title: "AI Alignment: A Comprehensive Survey"
 collection: publications
 permalink: /publication/2023-10-alignment-survey
-date: 2023-10
+date: 2023-10-28
 venue: 'Arxiv'
 paperurl: 'https://arxiv.org/pdf/2310.19852.pdf'
 ---
