@@ -1,7 +1,7 @@
 ---
 title: "Aligner : Achieving Efficient Alignment through Weak-to-Strong Correction"
 collection: publications
-permalink: /publication/2024-2-aligner.md
+permalink: /publication/2024-2-aligner
 date: 2024-02-02
 venue: 'Arxiv preprint'
 paperurl: 'https://arxiv.org/pdf/2402.02416.pdf'
