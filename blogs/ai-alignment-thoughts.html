@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thoughts on AI Alignment Research - Hantao Lou</title>
+    <link rel="icon" type="image/png" href="../favicon.png" sizes="32x32" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
+    <!-- Add FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../publications.html">Publications</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../files/cv.pdf" target="_blank">CV</a></li>
+        </ul>
+    </nav>
+    
+    <section id="content" class="blog-post">
+        <div class="blog-post-header">
+            <a href="../blog.html" class="back-button"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+            <h1>Thoughts on AI Alignment Research</h1>
+            <div class="blog-post-meta">
+                <span class="blog-post-date">May 15, 2024</span>
+                <div class="blog-post-tags">
+                    <span class="blog-tag">AI Alignment</span>
+                    <span class="blog-tag">Research</span>
+                    <span class="blog-tag">Future</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blog-post-body">
+            <img src="../assets/blog-ai-alignment-header.jpg" alt="AI Alignment Research" class="blog-post-image">
+            
+            <p>
+                As AI systems become increasingly capable, the challenge of ensuring they remain aligned with human values and intentions grows more critical. In this post, I'd like to share some thoughts on the current state of AI alignment research and where I believe the field is heading.
+            </p>
+            
+            <h2>The Current Landscape</h2>
+            
+            <p>
+                The field of AI alignment has evolved significantly in recent years. What was once a niche concern has become a central focus for many researchers and organizations. This shift has been driven by the rapid advancement of large language models and multimodal systems, which have demonstrated capabilities that were once thought to be decades away.
+            </p>
+            
+            <p>
+                Current approaches to alignment broadly fall into several categories:
+            </p>
+            
+            <ul>
+                <li><strong>Reinforcement Learning from Human Feedback (RLHF)</strong>: Training models to align with human preferences through feedback.</li>
+                <li><strong>Constitutional AI</strong>: Establishing principles or rules that guide AI behavior.</li>
+                <li><strong>Mechanistic Interpretability</strong>: Understanding the internal workings of models to ensure alignment.</li>
+                <li><strong>Scalable Oversight</strong>: Developing methods to supervise increasingly capable AI systems.</li>
+            </ul>
+            
+            <h2>Challenges and Opportunities</h2>
+            
+            <p>
+                Despite progress, significant challenges remain. One of the most pressing is the <em>scalability</em> of alignment techniques. As models grow in capability, ensuring they remain aligned becomes more difficult. This is particularly concerning as we approach systems with potentially superhuman capabilities in certain domains.
+            </p>
+            
+            <p>
+                Another challenge is the <em>robustness</em> of alignment. Current methods often work well in expected scenarios but may fail in edge cases or novel situations. This raises questions about how to create alignment techniques that generalize across a wide range of contexts.
+            </p>
+            
+            <p>
+                However, these challenges also present opportunities for innovation. For example:
+            </p>
+            
+            <pre><code>
+// Pseudocode for a hypothetical alignment approach
+function alignModel(model, humanValues) {
+    while (model.behavior != humanValues) {
+        feedback = getHumanFeedback(model.behavior);
+        model.update(feedback);
+        
+        // The key innovation: proactive identification of misalignment
+        potentialMisalignments = model.predictFailureModes();
+        for (misalignment of potentialMisalignments) {
+            preventiveFeedback = getHumanFeedback(misalignment);
+            model.update(preventiveFeedback);
+        }
+    }
+    return model;
+}
+            </code></pre>
+            
+            <p>
+                This simplified example illustrates a potential direction: developing systems that can proactively identify potential misalignment before it occurs.
+            </p>
+            
+            <h2>Looking Forward</h2>
+            
+            <p>
+                I believe the future of AI alignment research will increasingly focus on:
+            </p>
+            
+            <ol>
+                <li><strong>Formal verification</strong>: Developing mathematical guarantees about model behavior.</li>
+                <li><strong>Hybrid approaches</strong>: Combining multiple alignment techniques for more robust results.</li>
+                <li><strong>Value learning</strong>: Creating systems that can accurately infer and represent human values.</li>
+                <li><strong>Distributed alignment</strong>: Ensuring alignment across multiple AI systems working together.</li>
+            </ol>
+            
+            <p>
+                These directions represent not just technical challenges but also philosophical and ethical ones. They require us to grapple with questions about what values we want AI systems to embody and how we can ensure those values are represented accurately.
+            </p>
+            
+            <h2>Conclusion</h2>
+            
+            <p>
+                AI alignment remains one of the most important challenges in artificial intelligence research. As AI capabilities continue to advance, the need for robust, scalable alignment techniques becomes increasingly urgent. By addressing these challenges head-on, we can help ensure that AI systems of the future remain beneficial, safe, and aligned with human values.
+            </p>
+            
+            <p>
+                I'm excited to continue contributing to this field and to see how our collective understanding evolves in the coming years.
+            </p>
+        </div>
+    </section>
+
+    <!-- Add paw prints script -->
+    <script src="../js/paw-prints.js"></script>
+</body>
+</html> 

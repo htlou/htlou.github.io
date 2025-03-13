@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publications - Hantao Lou</title>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
+    <!-- Add FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="files/cv.pdf" target="_blank">CV</a></li>
+        </ul>
+    </nav>
+    
+    <section id="content">
+        <h1>Selected Publications</h1>
+        <div class="publication-list">
+            <!-- Publication Item Template -->
+            <div class="publication-item">
+                <img src="assets/sae-v.png" alt="SAE-V" class="publication-thumbnail">
+                <div class="publication-content">
+                    <h2 class="publication-title">SAE-V: Interpreting Multimodal Models for Enhanced Alignment</h2>
+                    <div class="publication-authors"><strong>Hantao Lou*</strong>, Changye Li*, Jiaming Ji, Yaodong Yang</div>
+                    <div class="publication-venue">Arxiv, 2025</div>
+                    <div class="publication-links">
+                        <!-- <a href="#"><i class="fas fa-file-pdf"></i> PDF</a> -->
+                        <a href="https://arxiv.org/pdf/2502.17514"><i class="fas fa-archive"></i> arXiv</a>
+                        <!-- <a href="https://github.com/PKU-Alignment/align-anything"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://huggingface.co/PKU-Alignment/Align-DS-V"><i class="fas fa-cube"></i> Huggingface</a> -->
+                    </div>
+                    <div class="publication-tldr">
+                        <span class="publication-tldr-label">TL;DR:</span>
+                        We introduce SAE-V, a mechanistic interpretability framework that extends the SAE paradigm to MLLMs to interpret multimodal models and multimodal alignment process. Based on SAE-V, we build advanced data filtering methods to enhance multimodal alignment.
+                    </div>
+                </div>
+            </div>
+            <div class="publication-item">
+                <img src="assets/align-anything.png" alt="Align Anything" class="publication-thumbnail">
+                <div class="publication-content">
+                    <h2 class="publication-title">Align Anything: Training All-Modality Models to Follow Instructions with Language Feedback</h2>
+                    <div class="publication-authors">Jiaming Ji*, Jiayi Zhou*, <strong>Hantao Lou*</strong>, Boyuan Chen*, Donghai Hong*, Xuyao Wang, Wenqi Chen, Kaile Wang, Rui Pan, Jiahao Li, Mohan Wang, Josef Dai, Tianyi Qiu, Hua Xu, Dong Li, Weipeng Chen, Jun Song, Bo Zheng, Yaodong Yang</div>
+                    <div class="publication-venue">Arxiv, 2024</div>
+                    <div class="publication-links">
+                        <!-- <a href="#"><i class="fas fa-file-pdf"></i> PDF</a> -->
+                        <a href="https://arxiv.org/abs/2412.15838"><i class="fas fa-archive"></i> arXiv</a>
+                        <a href="https://github.com/PKU-Alignment/align-anything"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://huggingface.co/PKU-Alignment/Align-DS-V"><i class="fas fa-cube"></i> Huggingface</a>
+                    </div>
+                    <div class="publication-tldr">
+                        <span class="publication-tldr-label">TL;DR:</span>
+                        We introduce the Align Anything framework, an end-to-end framework using language feedback to enhance the data, training, and evaluation of all-modality models, with our GitHub repo gaining 2.6K+ stars and featuring comprehensive support for multi-modal alignment, including the first full-parameter DeepSeek-R1 671B fine-tuning, extensible architecture requiring minimal changes for new models, and extensive benchmarking across 30+ evaluation standards.
+                    </div>
+                </div>
+            </div>
+            <div class="publication-item">
+                <img src="assets/stream-aligner.png" alt="Stream Aligner" class="publication-thumbnail">
+                <div class="publication-content">
+                    <h2 class="publication-title">Stream Aligner: Efficient Sentence-Level Alignment via Distribution Induction</h2>
+                    <div class="publication-authors"><strong>Hantao Lou</strong>, Jiaming Ji, Kaile Wang, Yaodong Yang</div>
+                    <div class="publication-venue">Poster, AI Alignment Track, The 39th Annual AAAI Conference on Artificial Intelligence, 2025</div>
+                    <div class="publication-links">
+                        <!-- <a href="#"><i class="fas fa-file-pdf"></i> PDF</a> -->
+                        <a href="https://arxiv.org/abs/2501.05336"><i class="fas fa-archive"></i> arXiv</a>
+                        <a href="https://github.com/htlou/stream-aligner"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://huggingface.co/datasets/htlou/stream-aligner"><i class="fas fa-cube"></i> Huggingface</a>
+                    </div>
+                    <div class="publication-tldr">
+                        <span class="publication-tldr-label">TL;DR:</span>
+                        We introduce the Streaming Distribution Induce Aligner (Stream Aligner), a novel alignment paradigm that combines efficiency with enhanced performance in various tasks throughout the generation process.
+                    </div>
+                </div>
+            </div>
+            <div class="publication-item">
+                <img src="assets/aligner.png" alt="Aligner" class="publication-thumbnail">
+                <div class="publication-content">
+                    <h2 class="publication-title">Aligner: Efficient Alignment by Learning to Correct</h2>
+                    <div class="publication-authors">Jiaming Ji*, Boyuan Chen*, <strong>Hantao Lou</strong>, Donghai Hong, Borong Zhang, Xuehai Pan, Juntao Dai, Tianyi Qiu, Yaodong Yang</div>
+                    <div class="publication-venue"><span class="highlight-oral">Oral Presentation</span>, The 38th Annual Conference on Neural Information Processing Systems, 2024</div>
+                    <div class="publication-links">
+                        <!-- <a href="#"><i class="fas fa-file-pdf"></i> PDF</a> -->
+                        <a href="https://arxiv.org/abs/2402.02416"><i class="fas fa-archive"></i> arXiv</a>
+                        <a href="https://github.com/PKU-Alignment/aligner"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://huggingface.co/aligner"><i class="fas fa-cube"></i> Huggingface</a>
+                        <a href="https://pku-aligner.github.io/"><i class="fas fa-globe"></i> Website</a>
+                    </div>
+                    <div class="publication-tldr">
+                        <span class="publication-tldr-label">TL;DR:</span>
+                        We introduce Aligner, a novel and simple alignment paradigm that learns the correctional residuals between preferred and dispreferred answers using a small model. 
+                    </div>
+                </div>
+            </div>
+            <div class="publication-item">
+                <img src="assets/survey.png" alt="AI Alignment Survey" class="publication-thumbnail">
+                <div class="publication-content">
+                    <h2 class="publication-title">AI Alignment: A Comprehensive Survey</h2>
+                    <div class="publication-authors">Jiaming Ji*, Tianyi Qiu*, Boyuan Chen*, Borong Zhang*, <strong>Hantao Lou</strong>, Kaile Wang, Yawen Duan, Zhonghao He, Jiayi Zhou, Zhaowei Zhang, Fanzhi Zeng, Kwan Yee Ng, Juntao Dai, Xuehai Pan, Aidan O'Gara, Yingshan Lei, Hua Xu, Brian Tse, Jie Fu, Stephen McAleer, Yaodong Yang, Yizhou Wang, Song-Chun Zhu, Yike Guo, Wen Gao</div>
+                    <div class="publication-venue">Arxiv, 2023</div>
+                    <div class="publication-links">
+                        <!-- <a href="#"><i class="fas fa-file-pdf"></i> PDF</a> -->
+                        <a href="https://arxiv.org/pdf/2310.19852"><i class="fas fa-archive"></i> arXiv</a>
+                        <!-- <a href="https://github.com/htlou/stream-aligner"><i class="fab fa-github"></i> Code</a> -->
+                        <a href="https://alignmentsurvey.com/"><i class="fas fa-globe"></i> Website</a>
+                    </div>
+                    <div class="publication-tldr">
+                        <span class="publication-tldr-label">TL;DR:</span>
+                        We provide a comprehensive survey of the AI alignment field, covering the latest research, techniques, and applications.
+                    </div>
+                </div>
+            </div>
+            <!-- You can copy and modify the above template for each publication -->
+            
+        </div>
+    </section>
+
+    <!-- Add paw prints script -->
+    <script src="js/paw-prints.js"></script>
+</body>
+</html> 
