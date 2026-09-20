@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+    "date": "2026-09-01",
+    "displayDate": "September 2026",
+    "tag": "Formal Verification",
+    "url": "https://rdi.berkeley.edu/blog/vero/",
+    "external": true,
+    "excerpt": "Introducing Vero, a repository-level benchmark for agents that must write code and machine-checked proofs together."
+  }
+]
